@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\Users\\Yetibotics\\.platformio\\penv\\Scripts;C:\\Users\\Yetibotics\\.platformio\\penv;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Yetibotics\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Yetibotics\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Yetibotics\\AppData\\Local\\Programs\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Yetibotics\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Yetibotics\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\Yetibotics\\AppData\\Local\\Programs\\Git\\cmd",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
