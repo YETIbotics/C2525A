@@ -39,7 +39,10 @@ void AUTONOMOUS::ExecAuton2()
 }
 void AUTONOMOUS::ExecAuton3()
 {
-    Robot.Drive.ForAsync(2000, 200, 100, 100);
+    Robot.Drive.ForAsync(2500, 240, 255, 100);
+    Robot.Drive.ForAsync(2500, -240, -255, 100); 
+    Robot.Drive.ForAsync(750, 120, 255, 100);
+    Robot.Drive.ForAsync(2500, 240, 250, 100);
 }
 void AUTONOMOUS::ExecAuton4()
 {
