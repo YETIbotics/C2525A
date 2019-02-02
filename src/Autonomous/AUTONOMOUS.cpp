@@ -34,12 +34,12 @@ void AUTONOMOUS::ExecAuton2()
 {
     //  Robot.Drive.ForAsync(500, 90, 80, 100);
     Robot.BallLift.ForAsync(2000, -255, 5);
-    Robot.Catapult.ForAsync(2000, -255, 100);
+    Robot.Catapult.ForAsync(2000, -200, 100);
     Robot.Catapult.ForAsync(500, 255, 100);
     Robot.Drive.ForAsync(2000, 245, 240, 100);
     Robot.Drive.ForAsync(1750, -210, -200, 100);
-    Robot.Drive.ForAsync(1500, 80, -100, 100);
-    Robot.BallLift.ForAsync(2000, 255, 5);
+    Robot.Drive.ForAsync(1500, 60, -100, 100);
+    Robot.BallLift.ForAsync(3000, 255, 5);
     Robot.Drive.ForAsync(1000, 250, 235, 100);
 }
 void AUTONOMOUS::ExecAuton3()
@@ -52,12 +52,12 @@ void AUTONOMOUS::ExecAuton3()
 void AUTONOMOUS::ExecAuton4()
 {
      Robot.BallLift.ForAsync(2000, -255, 5);
-    Robot.Catapult.ForAsync(2000, -255, 100);
+    Robot.Catapult.ForAsync(2000, -210, 100);
     Robot.Catapult.ForAsync(500, 255, 100);
     Robot.Drive.ForAsync(2000, 245, 240, 100);
     Robot.Drive.ForAsync(1750, -210, -200, 100);
     Robot.Drive.ForAsync(1500, 70, -100, 100);
-    Robot.BallLift.ForAsync(2500, 255, 5);
+    Robot.BallLift.ForAsync(3000, 255, 5);
     Robot.Drive.ForAsync(1000, 250, 235, 100);
     //Robot.Drive.ForAsync(3000, 190, 200, 100);
     // Robot.BallLift.ForAsync(2500, 255, 100);
