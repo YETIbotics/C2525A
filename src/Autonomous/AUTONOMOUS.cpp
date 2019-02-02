@@ -27,38 +27,41 @@ void AUTONOMOUS::Loop()
 
 void AUTONOMOUS::ExecAuton1()
 {
-    Robot.Drive.ForAsync(2000, 240, 255, 100);
-   //Robot.Drive.ForAsync(2000, 75, 200, 100);
-}
-void AUTONOMOUS::ExecAuton2()
-{
-    //  Robot.Drive.ForAsync(500, 90, 80, 100);
     Robot.BallLift.ForAsync(2000, -255, 5);
     Robot.Catapult.ForAsync(2000, -200, 100);
     Robot.Catapult.ForAsync(500, 255, 100);
     Robot.Drive.ForAsync(2000, 245, 240, 100);
     Robot.Drive.ForAsync(1750, -210, -200, 100);
-    Robot.Drive.ForAsync(1500, 60, -100, 100);
+    Robot.Drive.ForAsync(1500, -70, 100, 100);
     Robot.BallLift.ForAsync(3000, 255, 5);
     Robot.Drive.ForAsync(1000, 250, 235, 100);
 }
-void AUTONOMOUS::ExecAuton3()
+void AUTONOMOUS::ExecAuton2()
 {
-    Robot.Drive.ForAsync(2500, 240, 255, 100);
-    Robot.Drive.ForAsync(2500, -240, -255, 100); 
-    Robot.Drive.ForAsync(750, 120, 255, 100);
-    Robot.Drive.ForAsync(2500, 240, 250, 100);
-}
-void AUTONOMOUS::ExecAuton4()
-{
-     Robot.BallLift.ForAsync(2000, -255, 5);
-    Robot.Catapult.ForAsync(2000, -210, 100);
+    //  Robot.Drive.ForAsync(500, 90, 80, 100);
+    Robot.BallLift.ForAsync(2000, -255, 5);
+    Robot.Catapult.ForAsync(2000, -150, 100);
     Robot.Catapult.ForAsync(500, 255, 100);
     Robot.Drive.ForAsync(2000, 245, 240, 100);
     Robot.Drive.ForAsync(1750, -210, -200, 100);
     Robot.Drive.ForAsync(1500, 70, -100, 100);
     Robot.BallLift.ForAsync(3000, 255, 5);
     Robot.Drive.ForAsync(1000, 250, 235, 100);
-    //Robot.Drive.ForAsync(3000, 190, 200, 100);
+}
+void AUTONOMOUS::ExecAuton3()
+{
+    Robot.BallLift.ForAsync(2000, -255, 5);
+    Robot.Catapult.ForAsync(2000, -175, 100);
+    Robot.Catapult.ForAsync(500, 255, 100);
+    Robot.Drive.ForAsync(2000, 245, 240, 100);
+    Robot.Drive.ForAsync(1750, -210, -200, 100);
+    Robot.Drive.ForAsync(1500, 80, -95, 100);
+    Robot.BallLift.ForAsync(3000, 255, 5);
+    Robot.Drive.ForAsync(2000, 125, 116, 100);
+    // Robot.Drive.ForAsync(3000, 190, 200, 100);
     // Robot.BallLift.ForAsync(2500, 255, 100);
+}
+void AUTONOMOUS::ExecAuton4()
+{
+    Robot.Drive.ForAsync(100, 10, 10, 100);
 }
